@@ -1,0 +1,96 @@
+
+body {
+    background-image: url("assets/umn.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+.form-control {
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 6px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.alert {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+a.text-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a.text-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #6c757d;
+}
+
+
+
+@media (max-width: 576px) {
+    .container {
+        margin-top: 10px;
+        max-width: 90%;
+        padding: 15px;
+    }
+}
